@@ -8,12 +8,12 @@ Built with Tauri 2 (Rust) and React + TypeScript. See [docs/ARCHITECTURE.md](doc
 
 ## Requirements
 
-| | macOS | Linux |
-|---|---|---|
-| System tools | Xcode Command Line Tools: `xcode-select --install` | `sudo apt install libwebkit2gtk-4.1-dev libappindicator3-dev librsvg2-dev patchelf` (Debian/Ubuntu) |
-| Rust 1.85+ (stable) | [rustup](https://rustup.rs) | [rustup](https://rustup.rs) |
-| Node.js (LTS or newer) | `brew install node` or [nodejs.org](https://nodejs.org) | your package manager or [nodejs.org](https://nodejs.org) |
-| pnpm | `brew install pnpm`, or `npm install -g corepack && corepack enable` | `npm install -g corepack && corepack enable` |
+|                        | macOS                                                                    | Linux                                                                                                 |
+| ---------------------- | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------- |
+| System tools           | Xcode Command Line Tools: `xcode-select --install`                     | `sudo apt install libwebkit2gtk-4.1-dev libappindicator3-dev librsvg2-dev patchelf` (Debian/Ubuntu) |
+| Rust 1.85+ (stable)    | [rustup](https://rustup.rs)                                               | [rustup](https://rustup.rs)                                                                            |
+| Node.js (LTS or newer) | `brew install node` or [nodejs.org](https://nodejs.org)                 | your package manager or [nodejs.org](https://nodejs.org)                                               |
+| pnpm                   | `brew install pnpm`, or `npm install -g corepack && corepack enable` | `npm install -g corepack && corepack enable`                                                        |
 
 You don't need to install the Tauri CLI or SQLite separately. `pnpm install` gets the Tauri CLI, and SQLite is built into the app. Once playback is added, you'll also need libmpv (`brew install mpv` on macOS, `libmpv-dev` on Linux).
 
