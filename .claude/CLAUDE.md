@@ -1,6 +1,6 @@
 For this project we are working to create a desktop audiobook manager that pairs up with your TorBox account (TorBox cloud API only, no self-hosted server).
 
-Target platforms: Linux and macOS. Full architecture plan and milestones: see "Architecture" below; the original plan lives at ~/.claude/plans/read-the-claude-md-and-reflective-squid.md.
+Target platforms: Linux and macOS. Full architecture, flows, data model and milestones: [docs/ARCHITECTURE.md](../docs/ARCHITECTURE.md). Keep that file up to date when a milestone lands or the design changes.
 
 ## Stack (decided)
 - Tauri 2 shell. Rust core in `src-tauri/`, React 19 + TypeScript + Vite UI in `src/`.
