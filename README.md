@@ -2,7 +2,7 @@
 
 A desktop audiobook manager for Linux and macOS that works with your [TorBox](https://torbox.app) account: search sources, send to TorBox, download or stream, organize your library and listen with chapters and saved progress.
 
-Built with Tauri 2 (Rust) and React + TypeScript.
+Built with Tauri 2 (Rust) and React + TypeScript. See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for the design.
 
 > Status: early development — the app shell is in place; features are being built milestone by milestone.
 
